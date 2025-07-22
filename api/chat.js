@@ -1,7 +1,7 @@
-import fs from 'fs';
-import path from 'path';
-import { Configuration, OpenAIApi } from 'openai';
-import stringSimilarity from 'string-similarity';
+const fs = require('fs');
+const path = require('path');
+const { Configuration, OpenAIApi } = require('openai');
+const stringSimilarity = require('string-similarity');
 
 const faqsData = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'faqs.json'), 'utf-8'));
 const clientRoutes = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'client_routes.json'), 'utf-8'));
@@ -59,7 +59,7 @@ function hasMultipleRelevantKeywords(userMsg) {
 const configuration = new Configuration({ apiKey: process.env.OPENAI_API_KEY });
 const openai = new OpenAIApi(configuration);
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
     if (req.method !== 'POST') {
         return res.status(405).json({ error: 'Method not allowed' });
     }
