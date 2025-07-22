@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const { Configuration, OpenAIApi } = require('openai');
 const stringSimilarity = require('string-similarity');
 
 const faqsData = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'faqs.json'), 'utf-8'));
@@ -56,9 +55,6 @@ function hasMultipleRelevantKeywords(userMsg) {
     return count >= 2;
 }
 
-const configuration = new Configuration({ apiKey: process.env.OPENAI_API_KEY });
-const openai = new OpenAIApi(configuration);
-
 module.exports = async function handler(req, res) {
     if (req.method !== 'POST') {
         return res.status(405).json({ error: 'Method not allowed' });
@@ -99,11 +95,20 @@ module.exports = async function handler(req, res) {
         { role: 'user', content: vague ? message + " (The user is asking about the Housing Can't Wait campaign.)" : message }
     ];
     try {
-        const completion = await openai.createChatCompletion({
-            model: 'gpt-3.5-turbo',
-            messages
-        });
-        const botMessage = completion.data.choices[0].message.content;
+        const response = await axios.post(
+            'https://api.openai.com/v1/chat/completions',
+            {
+                model: 'gpt-3.5-turbo',
+                messages: messages,
+            },
+            {
+                headers: {
+                    'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
+                    'Content-Type': 'application/json',
+                },
+            }
+        );
+        const botMessage = response.data.choices[0].message.content;
         return res.json({ reply: botMessage });
     } catch (err) {
         return res.status(500).json({ error: 'OpenAI API error', details: err.message });
