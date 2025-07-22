@@ -1,0 +1,23 @@
+{
+    "funders_investors": {
+      "keywords": ["funding", "investor", "invest", "partner"],
+      "response": "Thank you for your interest in investing! Fahe is seeking partners to help raise $3 billion by 2030 to build 60,000 homes in Appalachia. Opportunities include philanthropic donations, impact investments, and more. Learn how to partner: https://www.housingcantwait.org/join-us/"
+    },
+    "policymakers_advocates": {
+      "keywords": ["policy", "advocate", "government", "legislation"],
+      "response": "Fahe collaborates with policymakers to increase state-level housing investment and influence housing equity policy. Learn how to advocate with us: https://www.housingcantwait.org/join-us/"
+    },
+    "local_governments": {
+      "keywords": ["city", "county", "recovery planning", "local government"],
+      "response": "We welcome collaboration with local governments on disaster recovery and housing initiatives. Learn about CDBG-DR and how your community can participate: https://www.housingcantwait.org/recovery/"
+    },
+    "corporations": {
+      "keywords": ["corporate", "brand", "partnership", "sponsor"],
+      "response": "Corporations can become brand partners and support regional reinvestment. Learn how your company can make a difference: https://www.housingcantwait.org/join-us/"
+    },
+    "residents": {
+      "keywords": ["help", "disaster", "flood", "housing", "support"],
+      "response": "If you live in a disaster-impacted area and need housing support, please fill out our intake form here: https://www.housingcantwait.org/recovery/"
+    }
+  }
+  

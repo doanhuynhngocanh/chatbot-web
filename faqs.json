@@ -1,0 +1,100 @@
+{
+  "funders_investors": {
+    "description": "Funders and investors are invited to help Fahe raise $3 billion by 2030 to build 60,000 homes in Appalachia, supporting local leaders and community services.",
+    "faqs": [
+      {
+        "question": "How can I invest in or fund the Housing Can’t Wait campaign?",
+        "answer": "You can partner with Fahe to help raise $3 billion by 2030, supporting the construction and rehabilitation of 60,000 homes and providing community services to benefit 1 million people. Opportunities include philanthropic donations, impact investments, and more. Learn how to partner: https://www.housingcantwait.org/join-us/"
+      },
+      {
+        "question": "What is the goal of the Housing Can’t Wait campaign?",
+        "answer": "The campaign aims to double Fahe’s impact in Appalachia by 2030, building or rehabilitating 60,000 homes and providing services to 1 million people, with a fundraising goal of $3 billion from investors, funders, and donors."
+      },
+      {
+        "question": "Who benefits from my investment?",
+        "answer": "Your investment supports local leaders who are building and rehabilitating homes, strengthening entire towns, and providing stability for families across Appalachia."
+      }
+    ]
+  },
+  "policymakers_advocates": {
+    "description": "Fahe collaborates with policymakers and advocates to increase state-level housing investment and influence housing equity policy.",
+    "faqs": [
+      {
+        "question": "How does Fahe work with policymakers and advocates?",
+        "answer": "Fahe collaborates with policymakers to increase state-level housing investment and influence housing equity policy, aiming to create lasting economic and housing opportunities for underserved communities. Learn how to advocate: https://www.housingcantwait.org/join-us/"
+      },
+      {
+        "question": "What impact has Fahe had on housing policy?",
+        "answer": "For over 45 years, Fahe has led efforts to solve housing challenges in rural and hard-to-serve areas, investing billions into communities and influencing policy to benefit families and entire towns."
+      }
+    ]
+  },
+  "local_governments": {
+    "description": "Fahe partners with local governments on disaster recovery and housing initiatives, including Community Development Block Grant Disaster Recovery (CDBG-DR) programs.",
+    "faqs": [
+      {
+        "question": "How can local governments collaborate with Fahe on disaster recovery?",
+        "answer": "Local governments can partner with Fahe on disaster recovery and housing initiatives, including CDBG-DR programs. Learn more about recovery efforts and how your community can participate: https://www.housingcantwait.org/recovery/"
+      },
+      {
+        "question": "What support is available for communities impacted by disasters?",
+        "answer": "Fahe provides support for disaster-impacted communities, prioritizing those affected by the 2021, 2022, and 2025 Eastern Kentucky floods. Residents and local governments can learn about eligibility and available programs on the website."
+      }
+    ]
+  },
+  "corporations": {
+    "description": "Corporations can become brand partners and support regional reinvestment, helping to build and rehabilitate homes in Appalachia.",
+    "faqs": [
+      {
+        "question": "How can my company partner with the Housing Can’t Wait campaign?",
+        "answer": "Corporations can become brand partners and support regional reinvestment. Learn how your company can make a difference: https://www.housingcantwait.org/join-us/"
+      },
+      {
+        "question": "What are the benefits of corporate partnership?",
+        "answer": "Corporate partners help build and rehabilitate homes, strengthen communities, and demonstrate a commitment to social responsibility in Appalachia."
+      }
+    ]
+  },
+  "residents": {
+    "description": "Residents of disaster-impacted areas, especially those affected by recent Eastern Kentucky floods, can apply for housing support through Fahe’s programs.",
+    "faqs": [
+      {
+        "question": "I was affected by the Eastern Kentucky floods. How can I get housing support?",
+        "answer": "If you live in a disaster-impacted area and need housing support, please fill out the Disaster Recovery Interest Form at https://www.housingcantwait.org/interest-form/. A Fahe Disaster Resilience Team Member will review your information and reach out to you for next steps."
+      },
+      {
+        "question": "Who is eligible for disaster recovery housing programs?",
+        "answer": "Residents of 2021, 2022, and 2025 Eastern Kentucky floods may be eligible for Community Development Block Grant Disaster Recovery (CDBG-DR) housing programs. Disaster impact is prioritized, but not required. To get started, fill out the Disaster Recovery Interest Form at https://www.housingcantwait.org/interest-form/."
+      },
+      {
+        "question": "How do I get help if I lost my house in a flood?",
+        "answer": "If you lost your house in a flood or were otherwise impacted by a disaster, please fill out the Disaster Recovery Interest Form at https://www.housingcantwait.org/interest-form/. This form will be reviewed for eligibility into a CDBG-DR Housing Program, and a Fahe Disaster Resilience Team Member will contact you for additional information and next steps."
+      }
+    ]
+  },
+  "fahe": {
+    "description": "About Fahe organization.",
+    "faqs": [
+      {
+        "question": "What is Fahe?",
+        "answer": "Fahe stands for the Federation of Appalachian Housing Enterprises. Fahe is a network of 50+ Members across Alabama, Kentucky, Maryland, Tennessee, Virginia, and West Virginia. We use our expertise in finance, collaboration, innovation, advocacy, and communication to achieve a more prosperous Appalachian region.\n\nWith a focus on leadership, housing, education, health and social services, and economic opportunity, Fahe empowers the people and communities of Appalachia with the resources, opportunities, and tools needed to build a better life. Our strength in numbers is transforming Appalachia into a place where economic opportunity and stability are within reach for all.\nLearn more about Fahe at: https://fahe.org/about/ "
+      },
+      {
+        "question": "Who is Fahe?",
+        "answer": "Fahe stands for the Federation of Appalachian Housing Enterprises. Fahe is a network of 50+ Members across Alabama, Kentucky, Maryland, Tennessee, Virginia, and West Virginia. We use our expertise in finance, collaboration, innovation, advocacy, and communication to achieve a more prosperous Appalachian region.\n\nWith a focus on leadership, housing, education, health and social services, and economic opportunity, Fahe empowers the people and communities of Appalachia with the resources, opportunities, and tools needed to build a better life. Our strength in numbers is transforming Appalachia into a place where economic opportunity and stability are within reach for all.\nLearn more about Fahe at: https://fahe.org/about/ "
+      },
+      {
+        "question": "What is Fahe’s mission?",
+        "answer": "Fahe’s mission is to build the American Dream in Appalachia by providing leadership, resources, and advocacy to strengthen communities and create opportunities for people to thrive. Learn more: https://fahe.org/about/"
+      },
+      {
+        "question": "Where does Fahe operate?",
+        "answer": "Fahe is a network of 50+ members across Alabama, Kentucky, Maryland, Tennessee, Virginia, and West Virginia, working to improve housing, education, health, and economic opportunity in Appalachia. Learn more: https://fahe.org/about/"
+      },
+      {
+        "question": "What are Fahe’s focus areas?",
+        "answer": "Fahe focuses on leadership, housing, education, health and social services, and economic opportunity to empower people and communities in Appalachia. Learn more: https://fahe.org/about/"
+      }
+    ]
+  }
+} 

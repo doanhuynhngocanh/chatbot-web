@@ -1,0 +1,28 @@
+{
+  "name": "chatbot-web",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doanhuynhngocanh/chatbot-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doanhuynhngocanh/chatbot-web/issues"
+  },
+  "homepage": "https://github.com/doanhuynhngocanh/chatbot-web#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "string-similarity": "^4.0.4"
+  }
+}

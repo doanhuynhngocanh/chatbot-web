@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <img src="public/fahe-logo.png" alt="FAHE Logo" class="chat-logo" style="height:40px; margin-right: 12px;">
+            <h2>Housing Can't Wait Assistant Chatbot</h2>
+            <button id="clearButton" class="clear-button">🔄 New Chat</button>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                <div class="message-content">
+                    Hello! I'm your AI assistant. How can I help you today?
+                </div>
+                <div class="message-time">Just now</div>
+            </div>
+        </div>
+        
+        <div class="chat-input-container">
+            <input type="text" id="userInput" placeholder="Type your message here..." maxlength="500">
+            <button id="sendButton">Send</button>
+        </div>
+    </div>
+
+    <div id="contactModal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close" id="closeContactModal">&times;</span>
+            <h3>Contact Information</h3>
+            <form id="contactForm">
+                <label for="contactName">Name:</label>
+                <input type="text" id="contactName" name="contactName" required><br>
+                <label for="contactEmail">Email:</label>
+                <input type="email" id="contactEmail" name="contactEmail" required><br>
+                <label for="contactPhone">Phone:</label>
+                <input type="tel" id="contactPhone" name="contactPhone"><br>
+                <label for="contactOrg">Organization/Address:</label>
+                <input type="text" id="contactOrg" name="contactOrg"><br>
+                <button type="submit" id="submitContact">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
