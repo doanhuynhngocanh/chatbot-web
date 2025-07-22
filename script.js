@@ -110,7 +110,7 @@ async function sendMessage() {
     addMessage('user', message);
 
     // Send to backend
-    const res = await fetch('http://localhost:3002/api/chat', {
+    const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message, sessionId }),
