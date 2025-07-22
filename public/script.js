@@ -13,8 +13,7 @@ const defaultWelcomeOptions = [
     "How can I get help with housing?",
     "How can I partner or invest?",
     "How can my organization get involved?",
-    "Who is Fahe?",
-    "I would like to leave my contact information."
+    "Who is Fahe?"
 ];
 let sessionWelcomeOptions = [...defaultWelcomeOptions];
 
