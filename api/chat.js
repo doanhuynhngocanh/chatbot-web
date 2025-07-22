@@ -108,7 +108,8 @@ module.exports = async function handler(req, res) {
                 },
             }
         );
-        const botMessage = response.data.choices[0].message.content;
+        console.log(response.data); // Debug: log the full OpenAI response
+        const botMessage = response.data.choices?.[0]?.message?.content || "Sorry, I couldn't generate a response.";
         return res.json({ reply: botMessage });
     } catch (err) {
         return res.status(500).json({ error: 'OpenAI API error', details: err.message });
